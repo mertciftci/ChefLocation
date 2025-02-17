@@ -1,6 +1,6 @@
 ﻿namespace ChefLocation.WebApi.Entities
 {
-    public class Testimonial
+    public class Testimonial : BaseTable
     {
         public int TestimonialId { get; set; }
         public string NameSurname { get; set; }

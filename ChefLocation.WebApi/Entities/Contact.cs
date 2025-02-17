@@ -1,6 +1,6 @@
 ﻿namespace ChefLocation.WebApi.Entities
 {
-    public class Contact
+    public class Contact : BaseTable
     {
         public int ContactId { get; set; }
         public string MapLocation { get; set; }

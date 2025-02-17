@@ -1,9 +1,8 @@
-﻿namespace ChefLocation.WebApi.Entities
+﻿namespace ChefLocation.WebApi.Contracts.Chef
 {
-    public class Chef : BaseTable
+    public class CreateChefRequest
     {
 
-        public int ChefId { get; set; }
         public string NameSurname { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }

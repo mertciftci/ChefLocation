@@ -1,8 +1,8 @@
-﻿namespace ChefLocation.WebApi.Entities
+﻿namespace ChefLocation.WebApi.Contracts.Product
 {
-    public class Product : BaseTable
+    public class CreateProductRequest
     {
-        public int ProductId { get; set; }
+
         public string ProcductName { get; set; }
         public string ProductDescription { get; set; }
         public decimal Price { get; set; }

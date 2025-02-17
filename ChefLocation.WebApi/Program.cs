@@ -1,5 +1,6 @@
 using ChefLocation.WebApi.Context;
 
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApiContext>();
 // Add services to the container.

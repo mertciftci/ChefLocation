@@ -1,6 +1,6 @@
 ﻿namespace ChefLocation.WebApi.Entities
 {
-    public class Message
+    public class Message : BaseTable
     {
         public int MessageId { get; set; }
         public string NameSurname { get; set; }

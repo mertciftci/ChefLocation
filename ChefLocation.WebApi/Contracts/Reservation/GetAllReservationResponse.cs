@@ -1,8 +1,8 @@
-﻿namespace ChefLocation.WebApi.Entities
+﻿namespace ChefLocation.WebApi.Contracts.Reservation
 {
-    public class Reservation : BaseTable
+    public class GetAllReservationResponse
     {
-        public int ReservationId { get; set; }
+
         public string NameSurname { get; set; }
         public string Email { get; set; }
         public string PhoneNumber { get; set; }

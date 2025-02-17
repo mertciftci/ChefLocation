@@ -1,6 +1,6 @@
 ﻿namespace ChefLocation.WebApi.Entities
 {
-    public class Service
+    public class Service : BaseTable
     {
         public int ServiceId { get; set; }
         public string Title { get; set; }

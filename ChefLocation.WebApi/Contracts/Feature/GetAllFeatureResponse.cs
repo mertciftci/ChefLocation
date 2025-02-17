@@ -1,13 +1,12 @@
-﻿namespace ChefLocation.WebApi.Entities
+﻿namespace ChefLocation.WebApi.Contracts.Feature
 {
-    public class Feature : BaseTable
+    public class GetAllFeatureResponse
     {
-        public int FeatureId { get; set; }
-        public string Title  { get; set; }
+
+        public string Title { get; set; }
         public string SubTitle { get; set; }
         public string Description { get; set; }
         public string VideoUrl { get; set; }
         public string ImageUrl { get; set; }
-
     }
 }
